@@ -1,0 +1,33 @@
+
+@media (max-width: 400px) {
+
+    body {
+        max-height: 70%;
+    }
+
+    #container {
+        flex-direction: column-reverse;
+    }
+
+    #img img {
+        width: 16rem;
+    }
+
+    #calculator {
+        padding: 1rem;
+        width: 90%;
+        height: 30%;
+        margin-top: 10px;
+    }
+
+    #title {
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    #calculate:active {
+        background-color: #00adfda4;
+    }
+    
+    
+}
